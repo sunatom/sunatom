@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+/*---------------------------------------
+	Font-size Adjustment
+-----------------------------------------
+
+	75%    = 9px	|	125%   = 15px	|	175%   = 21px
+	83.3%  = 10px	|	133.3% = 16px	|	183.3% = 22px
+	91.7%  = 11px	|	141.7% = 17px	|	191.7% = 23px
+	100%   = 12px	|	150%   = 18px	|	200%   = 24px
+	108.3% = 13px	|	158.3% = 19px	|	208.3% = 25px
+	116.7% = 14px	|	166.7% = 20px	|	216.7% = 26px
+
+---------------------------------------*/
+
+/*--------------------------------------
+	reset
+--------------------------------------*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol,ul {
+	list-style-type: none;
+}
+dt,dd,li {
+	text-indent: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+}
+table {
+	border-collapse: separate;
+}
+caption,th {
+	text-align: left;
+}
+img {
+	border: none;
+	vertical-align: bottom;
+}
+abbr {
+	cursor: help;
+}
+html {
+	overflow-y: scroll;
+}
+
+/*--------------------------------------
+	font
+--------------------------------------*/
+body {
+	line-height: 1.6;
+	color: #333;
+	font-family: 'Lucida Grande','Arial','Hiragino Kaku Gothic Pro','メイリオ', sans-serif;
+	font-size: 75%; /* 12px */
+}
+textarea,input {
+	font-family: 'Lucida Grande','Arial','Hiragino Kaku Gothic Pro','メイリオ', sans-serif;
+	font-size: 100%;
+}
+
+/*--------------------------------------
+	link
+--------------------------------------*/
+a {
+	color: #294876;
+	text-decoration: none;
+}
+a:link {
+	color: #294876;
+}
+a:visited {
+	color: #294876;
+}
+a:hover {
+	color: #4375bf;
+}
+a:active {
+	color: #294876;
+}
+
+/*--------------------------------------
+	utility
+--------------------------------------*/
+.clearfix:after {
+	content: "¥0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+
+/*--------------------------------------
+	media queries
+--------------------------------------*/
+@media only screen and (min-width: 480px) {
+
+}
+@media only screen and (min-width: 768px) {
+
+}
+
+/*--------------------------------------
+	media print
+--------------------------------------*/
+@media print {
+
+}
